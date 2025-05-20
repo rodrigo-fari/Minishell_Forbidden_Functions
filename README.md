@@ -1,16 +1,11 @@
-# Forbidden Functions Tester
+# [FFT] - Forbidden Functions Tester
 
-## Table of Contents
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e889ca7a-0f7a-4275-b20d-00fded76d5e4" 
+       width="600">
+</div>
 
-- [1. Introduction](#1-introduction)
-- [2. How to Use](#2-how-to-use)
-- [3. Customization](#3-customization)
-- [4. License](#4-license)
-
----
-
-### 1. Introduction
-
+### 1. What is this ?
 The **Forbidden Functions Tester** is a simple Bash script that helps you detect restricted or undesired functions inside your C source code.
 
 Whether you're working on a school project with strict rules or maintaining code quality in a team, this tool gives you a fast and clean way to ensure no forbidden functions sneak in.
