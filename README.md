@@ -7,7 +7,7 @@
       <a href="https://github.com/rodrigo-fari" target="_blank">
         <img src="https://komarev.com/ghpvc/?username=rodrigo-fari&color=4fa69a&style=round" width="140" alt="Profile Visitors"/>
       </a>
-      <a href="https://github.com/rodrigo-fari/forbidden-functions-tester?tab=MIT-1-ov-file">
+      <a href="https://github.com/rodrigo-fari/forbidden-functions-tester?tab=MIT-1-ov-file" target="_blank">
         <img src="https://img.shields.io/badge/LICENSE-MIT-green" alt="Liscense" width="114"/>
       </a>
       <a href="https://github.com/rodrigo-fari" target="_blank">
