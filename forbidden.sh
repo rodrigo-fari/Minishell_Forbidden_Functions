@@ -1,14 +1,35 @@
 #!/bin/bash
 
+#                          Hey there! How you doing ?
+
+#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫ Quick tutorial ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# [1]PROJECT_DIR → Put the path to your project's source folder. If you already
+# cloned on your source folder, you can leave it has it is.
+#
+# [2]EXTENSION → Put the file extension you want.
+#
+# [3]FORBIDDEN_FILE → You can edit this file to place all the things you want 
+# to search on your project such as functions, keywords or whatever you want.
+#
+# [4] → Feel free to fork this small project! Any kind of help/improvement is
+# welcome! Thank you! (pls leave a star on the repo *-*)
+#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROJECT_DIR="../"
+
+EXTENSION=".c"
+
+FORBIDDEN_FILE="testersrc"
+
+#━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫ Script ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 RED="\033[0;31m"
 GREEN="\033[0;32m"
 YELLOW="\033[0;33m"
 BOLD="\033[1m"
 BLINK="\033[5m"
 RESET="\033[0m"
-
-PROJECT_DIR="../"
-FORBIDDEN_FILE="testersrc"
 
 cleanup() {
 	tput cnorm
@@ -68,7 +89,7 @@ while IFS= read -r file; do
 		echo -e " ${GREEN}${BOLD}[OK] File $file"
 		printf "\n"
 	fi
-done < <(find "$PROJECT_DIR" -type f -name "*.c")
+done < <(find "$PROJECT_DIR" -type f -name "*$EXTENSION")
 
 tput cnorm
 
