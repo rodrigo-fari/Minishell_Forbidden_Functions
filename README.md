@@ -2,19 +2,19 @@
  <h1>🟢  Forbidden Functions Tester  🔴</h1>
   <img src="https://github.com/user-attachments/assets/e889ca7a-0f7a-4275-b20d-00fded76d5e4" 
        width="800">
-  <br>
-  <div>
-   <a href="https://github.com/rodrigo-fari" target="_blank">
-    <img src="https://komarev.com/ghpvc/?username=rodrigo-fari&color=4fa69a&style=flat-square" width="140" alt="Profile Visitors"/>
-   </a>
-   <a href="https://github.com/rodrigo-fari" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=Overview&message=RODRIGO-FARI&color=4fa69a&style=for-the-badge&logo=GitHub" alt="GitHub Overview" width="210"/>
-   </a>
-  </div>
+      <br>
+    <div style="display: flex; justify-content: space-between; gap: 50000px;">
+      <a href="https://github.com/rodrigo-fari" target="_blank">
+        <img src="https://komarev.com/ghpvc/?username=rodrigo-fari&color=4fa69a&style=round" width="140" alt="Profile Visitors"/>
+      </a>
+      <a href="https://github.com/rodrigo-fari/forbidden-functions-tester?tab=MIT-1-ov-file">
+        <img src="https://img.shields.io/badge/LICENSE-MIT-green" alt="Liscense" width="114"/>
+      </a>
+      <a href="https://github.com/rodrigo-fari" target="_blank">
+        <img src="https://img.shields.io/static/v1?label=Overview&message=RODRIGO-FARI&color=4fa69a&style=round&logo=GitHub" alt="GitHub Overview" width="220"/>
+      </a>
+    </div>
 </div>
-
-<br>
-<br>
 <br>
 
 ## What is this ?
@@ -82,12 +82,16 @@ EXTENSION=".c"
 
 ## Customization
 
+<br>
+
 You can adapt the script easily to suit your project:
 
 - **Change folders**: Modify `PROJECT_DIR` in the script.
 - **Update forbidden list**: Just edit the `testersrc` file.
 - **Style the messages**: Tweak the colors or formats in the `echo` lines.
 - **More extensions**: Want to scan `.h` files too? Change the `find` command accordingly.
+
+<br>
 
 ---
 
