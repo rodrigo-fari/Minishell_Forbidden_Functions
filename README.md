@@ -11,7 +11,7 @@
         <img src="https://img.shields.io/badge/LICENSE-MIT-green" alt="Liscense" width="114"/>
       </a>
       <a href="https://github.com/rodrigo-fari" target="_blank">
-        <img src="https://img.shields.io/static/v1?label=Overview&message=RODRIGO-FARI&color=4fa69a&style=round&logo=GitHub" alt="GitHub Overview" width="220"/>
+        <img src="https://img.shields.io/static/v1?label=Overview&message=Rodrigo-fari&color=4fa69a&style=round&logo=GitHub" alt="GitHub Overview" width="220"/>
       </a>
     </div>
 </div>
