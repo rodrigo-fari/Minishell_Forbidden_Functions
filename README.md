@@ -1,20 +1,34 @@
-# [FFT] - Forbidden Functions Tester
-
 <div align="center">
+ <h1>🟢  Forbidden Functions Tester  🔴</h1>
   <img src="https://github.com/user-attachments/assets/e889ca7a-0f7a-4275-b20d-00fded76d5e4" 
-       width="600">
+       width="800">
+  <br>
+  <a href="https://github.com/rodrigo-fari" target="_blank">
+    <img src="https://komarev.com/ghpvc/?username=rodrigo-fari&color=4fa69a&style=flat-square" width="200" alt="Profile Visitors"/>
+  </a>
+  <a href="https://github.com/rodrigo-fari" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Overview&message=RODRIGO-FARI&color=4fa69a&style=for-the-badge&logo=GitHub" alt="GitHub Overview" width="300"/>
+  </a>
+  <a>
+    <img src="https://img.shields.io/static/v1?label=Liscense&message=MIT&color=4fa69a&style=for-the-badge&logo=" alt="GitHub Overview" width="175"/>
+  </a>
 </div>
 
-### 1. What is this ?
-The **Forbidden Functions Tester** is a simple Bash script that helps you detect restricted or undesired functions inside your C source code.
+<br>
+<br>
+<br>
+
+## What is this ?
+
+The **Forbidden Functions Tester** is a simple Bash script that helps you detect restricted or undesired functions inside your source code.
 
 Whether you're working on a school project with strict rules or maintaining code quality in a team, this tool gives you a fast and clean way to ensure no forbidden functions sneak in.
 
-It works by scanning all `.c` files in a specified directory and matching them against a list of functions you define in a separate file.
+It works by scanning all files in a specified directory and matching them against a list of functions you define in a separate file.
 
 ---
 
-### 2. How to Use
+## How to Use ?
 
 ### Step-by-step:
 
@@ -28,7 +42,7 @@ cd forbidden-functions-tester
 
 2. **List your forbidden functions**:
 In the `testersrc` file, add each function on a new line. For example:
-```
+```c
 malloc
 free
 printf
@@ -39,27 +53,35 @@ printf
 3. **Set your target directory**:
 Inside the script (`forbidden.sh`), point the `PROJECT_DIR` variable to the folder containing your `.c` files.
 ```bash
-PROJECT_DIR="../src"
+PROJECT_DIR="../path-to-your-project"
 ```
 
 <br>
 
-4. **Run the script**:
+4. **Set your target language**:
+Inside the script (`forbidden.sh`), point the `EXTENSION` variable to your file extensions.
+```bash
+EXTENSION=".c"
+```
+
+<br>
+
+5. **Run the script**:
 ```bash
 ./forbidden.sh
 ```
 
 <br>
 
-5. **Read the output**:
+6. **Read the output**:
 - `[OK]` – No forbidden functions in this file.
-- `[KO]` – Forbidden function found: you’ll get the function name, file, and line number.
+- `[KO]` – Forbidden function found: you’ll get the function name, file path, and line number.
 
 <br>
 
 ---
 
-### 3. Customization
+## 3. Customization
 
 You can adapt the script easily to suit your project:
 
@@ -71,7 +93,7 @@ You can adapt the script easily to suit your project:
 ---
 
 
-### 4. License
+## 4. License
 
 This project is licensed under the MIT License.
 
