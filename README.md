@@ -3,15 +3,14 @@
   <img src="https://github.com/user-attachments/assets/e889ca7a-0f7a-4275-b20d-00fded76d5e4" 
        width="800">
   <br>
-  <a href="https://github.com/rodrigo-fari" target="_blank">
-    <img src="https://komarev.com/ghpvc/?username=rodrigo-fari&color=4fa69a&style=flat-square" width="200" alt="Profile Visitors"/>
-  </a>
-  <a href="https://github.com/rodrigo-fari" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=Overview&message=RODRIGO-FARI&color=4fa69a&style=for-the-badge&logo=GitHub" alt="GitHub Overview" width="300"/>
-  </a>
-  <a>
-    <img src="https://img.shields.io/static/v1?label=Liscense&message=MIT&color=4fa69a&style=for-the-badge&logo=" alt="GitHub Overview" width="175"/>
-  </a>
+  <div>
+   <a href="https://github.com/rodrigo-fari" target="_blank">
+    <img src="https://komarev.com/ghpvc/?username=rodrigo-fari&color=4fa69a&style=flat-square" width="140" alt="Profile Visitors"/>
+   </a>
+   <a href="https://github.com/rodrigo-fari" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=Overview&message=RODRIGO-FARI&color=4fa69a&style=for-the-badge&logo=GitHub" alt="GitHub Overview" width="210"/>
+   </a>
+  </div>
 </div>
 
 <br>
@@ -51,7 +50,7 @@ printf
 <br>
 
 3. **Set your target directory**:
-Inside the script (`forbidden.sh`), point the `PROJECT_DIR` variable to the folder containing your `.c` files.
+Inside the script (`forbidden.sh`), point the `PROJECT_DIR` variable to the folder containing your files.
 ```bash
 PROJECT_DIR="../path-to-your-project"
 ```
@@ -81,7 +80,7 @@ EXTENSION=".c"
 
 ---
 
-## 3. Customization
+## Customization
 
 You can adapt the script easily to suit your project:
 
@@ -92,11 +91,16 @@ You can adapt the script easily to suit your project:
 
 ---
 
-
-## 4. License
-
+<div style="display:flex">
+ <h2>
+  License
+  <a>
+   <img src="https://img.shields.io/badge/LICENSE-MIT-green" alt="Liscense"/>
+  </a>
+ </h2>
+</div>  
 This project is licensed under the MIT License.
 
 Feel free to use, modify, and share it however you like. Just give credit when it's due.
 
-Created by: Rodrigo-fari ;p
+Created by: [Rodrigo-fari](https://github.com/rodrigo-fari) ;p
