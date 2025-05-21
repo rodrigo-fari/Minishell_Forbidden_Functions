@@ -16,7 +16,7 @@
 # welcome! Thank you! (pls leave a star on the repo *-*)
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-PROJECT_DIR="../"
+PROJECT_DIR="../src"
 
 EXTENSION=".c"
 
